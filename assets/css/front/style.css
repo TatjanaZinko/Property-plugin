@@ -1,0 +1,43 @@
+ .wrapper {
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ .archive-property {
+     display: flex;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .archive-property article.property, 
+ .archive-agent article.agent, article.type-property {
+     background-color: #ffffff;
+     padding: 40px;
+     width: 30%;
+ }
+
+ .single-property article.property, .single-property article.type-property {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+ .property_info span {
+     display: block;
+ }
+ #add_property p{
+    margin-bottom: 20px;
+ }
+ #add_property input,
+ #add_property textarea,  
+ #add_property select{
+    width: 50%;
+ }
+ #add_property label {
+     display: block;
+ }
+ .list .property {
+     margin-bottom: 20px;
+     padding: 30px;
+     background: #ffffff;
+ }
